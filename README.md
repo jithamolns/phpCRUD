@@ -1,2 +1,2 @@
 # phpCRUD
-CRUD operations using PHP
+CRUD operations using PHP and MySQL
