@@ -1,0 +1,131 @@
+/* General styles */
+body{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Signika Negative', sans-serif;
+}
+.error{
+  color: red;
+}
+.success-msg{
+  color: green;
+}
+
+/* Theme styles */
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: blue;
+}
+.btn-outline-secondary:hover{
+  background-color: #00277e !important;
+  color: white !important;
+}
+.btn-check:active+.btn-outline-secondary, .btn-check:checked+.btn-outline-secondary, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show, .btn-outline-secondary:active{
+    background-color: #00277e !important;
+    color: white !important;
+}
+.btn-check:active+.btn-outline-secondary:focus, .btn-check:checked+.btn-outline-secondary:focus, .btn-outline-secondary.active:focus, .btn-outline-secondary.dropdown-toggle.show:focus, .btn-outline-secondary:active:focus{
+  box-shadow: none;
+}
+.btn-primary{
+  background-color: #00277e !important;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+  box-shadow: none;
+  border-color: transparent;
+}
+
+/* Header styles */
+.navbar-brand{
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 50px;
+}
+.navbar-brand:hover{
+  color: #00277e;
+}
+.navbar-nav a{
+  color: black;
+}
+.navbar-nav a:hover{
+  color: #00277e;
+  opacity: 0.7;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+/* Footer styles */
+
+/* Body styles */
+table th{
+  text-align: center;
+}
+table td{
+  padding: 10px;
+}
+label span{
+  color: red;
+}
+.btn_remove{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-control:focus{
+  outline: 0;
+  box-shadow: none;
+}
+.album-table img{
+  width: 20px;
+  opacity: 0.5;
+}
+.album-table img:hover{
+  opacity: 1;
+}
+.pagination{
+  flex-wrap: wrap;
+}
+.pagination li{
+  margin-bottom: 10px;
+}
+.pagination .page-btn{
+  background-color: #d1d1d1;
+  display: inline-block;
+  padding: 5px 10px;
+  color: black;
+  border-radius: 3px;
+}
+.pagination .page-btn:hover{
+  background-color: #00277e;
+  color: white;
+}
+.pagination .active-btn{
+  background-color: #00277e;
+  color: white;
+}
+.dropdown-center{
+   justify-content: space-between;
+}
+
+/* Login page */
+.login-form{
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+}
+.login-form .form-group{
+  margin-bottom: 20px
+}
+
+/* Media Query */
+@media (max-width: 575px){
+  .navbar-brand{
+    font-size: 30px;
+  }
+}
